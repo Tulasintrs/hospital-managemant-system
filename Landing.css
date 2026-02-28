@@ -1,0 +1,29 @@
+/* *{
+    background-color: rgb(65, 216, 233);
+    color: blue;
+} */
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-image: url('../Assets/background.png');
+    background-size: cover;
+}
+
+.landing-container h2,
+.landing-container p {
+    color: #1059cd;
+    text-align: top;
+    
+}
+.buton-style {
+    margin: top 15px;
+    display: flex;
+    gap: 10px;
+}
+.buton-style button:hover{
+    background-color: rgb(236, 217, 195);
+}

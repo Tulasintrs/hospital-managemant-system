@@ -1,0 +1,33 @@
+h2{
+  text-align: center;
+}
+.doctors {
+  padding: 40px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+  gap: 10px;
+}
+.doctor-card {
+  margin: 15px auto;
+  padding: 15px;
+  width: 280px;
+  background-color: #f4f9fc;
+  border-radius: 6px;
+  box-shadow: gray;
+
+}
+.doctor-card img {
+  width: 100%;
+  height: auto; 
+  border-radius: 10px;
+  object-fit: cover; 
+}
+p{
+  text-align: center;
+  color: black;
+}
+h3{
+  text-align: center;
+}
